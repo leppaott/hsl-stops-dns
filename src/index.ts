@@ -1,6 +1,5 @@
 import * as request from 'request-promise-native';
 
-
 function query(stop: string): request.RequestPromise {
     const query = `{stops(name: "${stop}") { name code }}`;
 
